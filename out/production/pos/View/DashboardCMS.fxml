@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="anpMain" prefHeight="357.0" prefWidth="749.0" style="-fx-background-color: #525456;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.DashboardController">
+   <children>
+      <Label layoutX="195.0" layoutY="28.0" prefHeight="59.0" prefWidth="359.0" text="Store Mangement System" textFill="WHITE">
+         <font>
+            <Font name="FreeMono Bold" size="27.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="icnManageCustomer" fitHeight="91.0" fitWidth="105.0" layoutX="73.0" layoutY="124.0" onMouseClicked="#navigate" onMouseEntered="#playMouseEnterAnimation" onMouseExited="#playMouseExitAnimation" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../icon/Team-Members-Icon.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="54.0" layoutY="238.0" text="Manage Customer" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="icnManageItems" fitHeight="102.0" fitWidth="102.0" layoutX="237.0" layoutY="121.0" onMouseClicked="#navigate" onMouseEntered="#playMouseEnterAnimation" onMouseExited="#playMouseExitAnimation" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../icon/briefcase_business_case_portfolio_management_equipment_suitcase_work_bag_manage_finance_flat_design_icon-512.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="234.0" layoutY="238.0" prefHeight="18.0" prefWidth="109.0" text="Manage Items" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="icnManageOrders" fitHeight="102.0" fitWidth="109.0" layoutX="412.0" layoutY="124.0" onMouseClicked="#navigate" onMouseEntered="#playMouseEnterAnimation" onMouseExited="#playMouseExitAnimation" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../icon/Cart-icon.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="422.0" layoutY="238.0" text="Place Order" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="icnSearchOrders" fitHeight="102.0" fitWidth="197.0" layoutX="539.0" layoutY="124.0" onMouseClicked="#navigate" onMouseEntered="#playMouseEnterAnimation" onMouseExited="#playMouseExitAnimation" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../icon/material-icon-2155442_960_720.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="591.0" layoutY="238.0" text="Search Order" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

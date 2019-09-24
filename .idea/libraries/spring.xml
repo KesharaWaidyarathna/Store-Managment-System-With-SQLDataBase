@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="spring">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/lib/spring" />
+      <root url="file://$PROJECT_DIR$/lib/jasperReports" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/lib/spring" />
+      <root url="file://$PROJECT_DIR$/lib/jasperReports" />
+    </SOURCES>
+    <jarDirectory url="file://$PROJECT_DIR$/lib/jasperReports" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/lib/spring" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/lib/jasperReports" recursive="false" type="SOURCES" />
+    <jarDirectory url="file://$PROJECT_DIR$/lib/spring" recursive="false" type="SOURCES" />
+  </library>
+</component>

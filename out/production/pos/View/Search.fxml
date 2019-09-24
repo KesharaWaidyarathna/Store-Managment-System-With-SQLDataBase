@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="anpSearchOrders" prefHeight="524.0" prefWidth="658.0" style="-fx-background-color: #525456;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.SearchController">
+   <children>
+      <JFXTextField fx:id="txtSearch" layoutX="33.0" layoutY="84.0" prefHeight="28.0" prefWidth="592.0" promptText="Enter order Id/Name" styleClass="jfx-text-field" stylesheets="@../CSS/fontColour.css" />
+      <Label layoutX="240.0" layoutY="14.0" prefHeight="48.0" prefWidth="179.0" text="Search Orders" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Label>
+      <TableView fx:id="tblSearch" layoutX="31.0" layoutY="136.0" onMouseClicked="#tblSearch_Action" prefHeight="369.0" prefWidth="603.0" styleClass="table-row-cell" stylesheets="@../CSS/table.css">
+        <columns>
+          <TableColumn fx:id="clmID" prefWidth="75.0" text="ID" />
+          <TableColumn fx:id="clmDate" prefWidth="75.0" text="Date" />
+            <TableColumn fx:id="clmTotal" prefWidth="75.0" text="Total" />
+            <TableColumn fx:id="clmCustomerId" prefWidth="207.0" text="Customer Id" />
+            <TableColumn fx:id="clmCustomerName" minWidth="0.0" prefWidth="170.0" text="Customer Name" />
+        </columns>
+      </TableView>
+      <JFXButton fx:id="btnHome" layoutX="558.0" layoutY="14.0" onAction="#btnHome_Action" style="-fx-background-color: WHITE;" text="Home">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="btnRepots" layoutX="31.0" layoutY="14.0" onAction="#btnReports_OnAction" style="-fx-background-color: WHITE;" text="Get Repots">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

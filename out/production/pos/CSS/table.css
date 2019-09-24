@@ -1,0 +1,14 @@
+
+.table-row-cell {
+    -fx-background: linear-gradient(white 0%, white 90%, #e0e0e0 90%);
+    -fx-selection-bar: linear-gradient(#95caff 0%, #77acff 90%, #e0e0e0 90%);
+}
+.table-row-cell {
+    -fx-text-background-color: red;
+    -fx-background: #22C8E5;
+}
+
+.table-row-cell {
+    -fx-text-background-color: Black;
+    -fx-background:#99A0A2;
+}
